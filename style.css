@@ -1,0 +1,108 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #4FACF7;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height:100vw;
+    align-items: center;
+    font-family: 'Averia Gruesa Libre', 'Segoe UI', Tahoma, Verdana, sans-serif;
+    color: #043666;
+}
+
+svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -10;
+}
+
+header {
+    height: 120px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Rampart One';
+}
+
+.top-section {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    /* background-color: green; */
+    padding: 10px;
+    gap: 1em;
+}
+
+.image-section {
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    /* background-color: pink; */
+}
+
+.image-container {
+    width: 60%;
+    max-width: 450px;
+    flex-grow: 1;
+    border-radius: 15px;
+    box-shadow: rgb(38, 57, 77) 0 20px 30px -10px;
+    background-size: contain;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.caption-section {
+    display: flex;
+    flex-direction: column;
+    /* background-color: purple; */
+}
+
+.caption-container {
+    width: 100%;
+    max-width: 550px;
+    flex-wrap: wrap;
+    flex-grow: 0.5;
+    font-size: 20px;
+}
+
+.bottom-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aquamarine; */
+}
+
+#submit_btn {
+    width: 170px;
+    position: relative;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: rgb(38, 57, 77) 0 20px 30px -10px;
+    background-color: #043666;
+    color: #f4f0d9;
+    box-sizing: border-box;
+    z-index: 100;
+}
+
+#submit_btn:hover {
+    background-color: #31689c;
+    cursor: pointer;
+}
+
+#prompt {
+    font-size: 30px;
+}
